@@ -1,0 +1,27 @@
+**/.DS_Store    
+*/.playground.xcworkspace
+**/.timeline.xctimeline
+*/.xcuserdata
+**/.ipa
+**/.dSYM.zip
+**/.dSYMg
+*/.xcuserdata/**/*/
+
+
+*/.playground.xcworkspace
+
+# Created by https://www.toptal.com/developers/gitignore/api/swiftpm,swiftpackagemanager,swift,osx,python
+# Edit at https://www.toptal.com/developers/gitignore?templates=swiftpm,swiftpackagemanager,swift,osx,python
+
+### OSX ###
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+
+# Thumbnails
+._*
