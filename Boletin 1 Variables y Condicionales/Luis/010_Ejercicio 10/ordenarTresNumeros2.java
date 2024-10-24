@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class ordenarTresNumeros2 {
    public static void main(String[] args) {
     Scanner input = new Scanner(System.in);
-    ArrayList<Integer> numeros = new ArrayList();
+    ArrayList<Integer> numeros = new ArrayList<Integer>();
     // Llamar al metodo para pedir numeros
     pedirNumeros(input, numeros);
 
