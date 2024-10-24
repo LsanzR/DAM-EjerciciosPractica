@@ -29,8 +29,6 @@ public class numeroMayor {
             System.out.println("El primer numero " + numero1 + " es mayor que el segundo numero " + numero2);
         } else if(numero1 < numero2) {
             System.out.println("El primer numero " + numero1 + " es menor que el segundo numero " + numero2);
-        } else {
-            System.out.println("El primer numero  " + numero1 + " es el mismo que el segundo numero " + numero2);
         }
     }
 }
