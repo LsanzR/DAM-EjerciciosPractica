@@ -1,9 +1,7 @@
 // Pedir dos números y mostrarlos ordenados de mayor a menor.
 
-
-
-
-import java.util.Arrays;
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Scanner;
 public class ordenarNumeros {
     public static void main(String[]args) {
@@ -27,17 +25,18 @@ public class ordenarNumeros {
     }
     // Metodo para unificar y ordenar el array de menor numero a mayor numero
     public static void unificarYOrdenarNumeros (int numero1, int numero2) {
-        // Inicializamos el array con un index = 2
-        int[] numeros = new int[2];
+        // Creamos un ArrayList para almacenar posteriormente los numeros.
+        ArrayList<Integer> arrayNumeros = new ArrayList<>();
         
         // Implementamos los valores a la lista
-        numeros[0] = numero1;
-        numeros[1] = numero2;
-        System.out.println("La lista sin estar ordenada es: " + Arrays.toString(numeros));
+        arrayNumeros.add(numero1);
+        arrayNumeros.add(numero2);
+
+        System.out.println("La lista desordenada es: " + arrayNumeros);
+        Collections.sort(arrayNumeros); // Utilizamos la libreria Collections y la funcion sort para ordenar los valores que tiene el ArrayList
+        System.out.println("La lista ordenada es: " + arrayNumeros);
         
-        // Ordenar numeros utilizando Arrays.toString(array) porque si no lo hiciesemos asi, lo que nos devuelve por consola es la ubicacion de la memoria donde esta alojado este array.
-        Arrays.sort(numeros);
-       System.out.println("Array ordenado : " + Arrays.toString(numeros));
+        //
 
         }
     }
