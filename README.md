@@ -17,3 +17,9 @@ Si estás usando otro gestor de dependencias (como npm para proyectos de JavaScr
 4. Ejecutar el proyecto: Una vez instaladas las dependencias, puedes ejecutar el proyecto. Si es un proyecto Java, podrías ejecutar:
     java -jar nombreDelArchivo.jar
     Asegúrate de reemplazar nombreDelArchivo.jar con el nombre real del archivo ejecutable.
+
+## Instrucciones
+1. Una vez tenemos el repositorio clonado en local vamos a trabajar siguiendo una estructura de orden.
+2. Para trabajar e implementar los cambios que queramos, creamos una rama con tu nombre + Branch. ejemplo : luisBranch
+3. Una vez estamos en la rama de trabajo y queremos subir algun programa, para diferenciarlos de quien es quien, creamos una carpeta con el nombre de quien lo hace
+4. Ya dentro de la carpeta creamos, modificamos o borramos los archivos y lo que contienen a gusto de cada uno.
