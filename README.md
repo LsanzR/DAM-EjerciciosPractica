@@ -1,4 +1,4 @@
-# Nombre del Proyecto
+# Ejercicios de practica de Programacion (PDF Chelo)
 
 Realizacion de los ejercicios subidos en PDF de practica de DAM
 
