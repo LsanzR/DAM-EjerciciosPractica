@@ -30,7 +30,7 @@ public class CorregirNotaSwitchEnteros {
     // Metodo para devolver el resultado del ejercicio
     public static String corregirNmero(int numero) {
         String nota = ""; // Variable que va a almacenar el resultado de la nota
-        // Switch con el que vamos a trabajar los diferentes casos posibles de las notas. Siempre trabajando con enteros.
+        // Switch con el que vamos a trabajar los diferentes casos posibles de las notas. Siempre trabajando con enteros
         switch (numero) {
             case 0,1,2,3,4 -> nota = "INSUFICIENTE";
             case 5 -> nota = "SUFICIENTE";
