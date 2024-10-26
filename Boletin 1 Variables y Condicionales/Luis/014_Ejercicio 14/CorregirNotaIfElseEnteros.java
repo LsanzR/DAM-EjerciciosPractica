@@ -5,11 +5,7 @@ import java.util.Scanner;
 public class CorregirNotaIfElseEnteros {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-<<<<<<< HEAD
         int numero = pedirNumero(input); // Variable que almacena el numero introducido por el usuario
-=======
-        int numero = pedirNumero(input); // Variable que almacena el numero introducido por el usuario.
->>>>>>> luisBranch
         numero = validarNumero(numero, input); // Actualizamos y validamos la variable que contiene el numero
         System.out.println(corregirNmero(numero)); // Imprimimos por pantalla el resultado segun la nota.
 
