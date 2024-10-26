@@ -34,7 +34,7 @@ public class FechaCorrecta {
         return input.nextInt();
     }
 
-
+    // Metodo para validar que el numero de los dias esta dentro del rango del ejercicio
     public static int validarNumerosDias(int dia, Scanner input) {
         while (dia <= 0 || dia >= 30) {
             System.out.println("Has introducido un numero de dia incorrceto. Solo se acepta el rango del numero 1 al numero 30");
@@ -42,9 +42,9 @@ public class FechaCorrecta {
             dia = pedirDia(input);
         }
         return dia;
-
     }
 
+    // Metodo para validar que el numero del mes esta dentro del rango permitido
     public static int validarNumerosMes(int mes, Scanner input) {
         while (mes <= 0 || mes >= 12) {
             System.out.println("Has introducido un numero de mes incorrecto. Solo se acepta un rango de 1 a 12.");
@@ -54,8 +54,7 @@ public class FechaCorrecta {
         return mes;
         }
         
-    
-
+    // Metodo para validar que los años estan dentro del rango logico permitido. 
     public static int validarNumeroAño(int año, Scanner input) {
         while (año < 0 || año > 2024) {
             System.out.println("Has introducido un numero del año incorrecto. Solo se acepta un numero dentro del rango 0 a 2024 incluidos.");
