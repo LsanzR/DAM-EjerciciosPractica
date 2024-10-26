@@ -43,7 +43,7 @@ public class FechaCorrecta {
         }
         return dia;
     }
-
+     
     // Metodo para validar que el numero del mes esta dentro del rango permitido
     public static int validarNumerosMes(int mes, Scanner input) {
         while (mes <= 0 || mes >= 12) {
