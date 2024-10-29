@@ -11,11 +11,11 @@ public class NumeroPositivoNegativo {
 
     public static void signoNumero( Scanner input) {
         int numero;
-        do { 
+        do {  // Bucle do-while para ejecutar siempre el bucle mientra se cumpla la condicion
             System.out.println("Introduce un numero mayor al 0. Utiliza el 0 para salir del bucle");
             numero = input.nextInt();
             
-            if (numero >= 1) {
+            if (numero >= 1) { 
                 System.out.println("El numero es positivo");
             } else {
                 System.out.println("El numero es negativo");
