@@ -12,12 +12,12 @@ public class AdivinarNumero {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         Random random = new Random();
+        
         // Limites inferior y superior para el numero random
         int numeroMinimo = numeroMinimo(input);
         int numeroMaximo = numeroMaximo(input);
         
         // Generar un numero aleatorio dentro del rango minimo y maximo especificado
-        int numero;
         int numeroRandom = random.nextInt(numeroMinimo,numeroMaximo + 1);
 
         // Llamamos al metodo para comprar los numeros
@@ -50,7 +50,7 @@ public class AdivinarNumero {
         return input.nextInt();
     }
     
-    // Metodo para comparar los numeros
+    // Metodo para comparar los numeros y permanecer en el bucle si no ha acertado, o salir del bucle si el usuario acierta el numero
     public static void compararNumeros(int numeroRandom, Scanner input) {
         int numero;
         do { 
